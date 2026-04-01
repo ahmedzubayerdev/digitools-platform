@@ -6,14 +6,14 @@ import rocket from '../../assets/image/rocket.png'
 const Steps = () => {
     return (
         <div>
-            <div className='text-center mx-48 py-14 '>
+            <div className='text-center md:mx-48 py-14 '>
                 <div>
                     <div className='mb-10'>
                         <h2 className='font-bold text-4xl mb-4'>Get Started in 3 Steps</h2>
                         <p className='text-sm text-[#627382] '>Start using premium digital tools in minutes, not hours.</p>
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-7 mt-5 text-center space-y-4'>
+                <div className='grid grid-cols-1 text-center space-y-4  md:mt-5 md:grid-cols-3 '>
                     <div className='relative  rounded-lg p-8 text-center  '>
                         <p className=' absolute top-1 right-1 -translate-x-1/2 bg-purple-600 text-white w-8 h-8 flex items-center justify-center rounded-full '>01</p>
                         <img src={user} alt="   "className='mx-auto mt-6  mb-3'/>

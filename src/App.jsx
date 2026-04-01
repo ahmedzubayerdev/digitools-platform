@@ -1,8 +1,10 @@
 import './App.css'
 import Banner from './components/banner/Banner'
 import Navbar from './components/header/Navbar'
+import Pricing from './components/pricing/Pricing'
 import Stats from './components/stats/Stats'
 import Steps from './components/steps/Steps'
+
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
 
         {/* step section  */}
         <Steps></Steps>
+
+        <Pricing></Pricing>
 
       </main>
 
