@@ -2,6 +2,8 @@ import './App.css'
 import Banner from './components/banner/Banner'
 import Navbar from './components/header/Navbar'
 import Stats from './components/stats/Stats'
+import Steps from './components/steps/Steps'
+
 function App() {
 
   return (
@@ -17,8 +19,9 @@ function App() {
         {/* stats section */}
         <Stats></Stats>
 
+        {/* step section  */}
+        <Steps></Steps>
 
-        something will be here
       </main>
 
 
