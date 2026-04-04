@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Perfect for beginners creating their first professional resume.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "New",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/kspVRnNn/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates and tools.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "https://i.ibb.co.com/kspVRnNn/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Growth Plan",
+    "description": "Monthly subscription with resume updates and career tips.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "features": ["Resume reviews", "Career tips", "Monthly updates"],
+    "icon": "https://i.ibb.co.com/gbXnCgmW/writing-2327400-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Job Toolkit",
+    "description": "All-in-one package for job seekers.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "features": ["Resume builder", "Cover letters", "Interview prep", "Portfolio templates"],
+    "icon": "https://i.ibb.co.com/gZdhXDTL/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimization Kit",
+    "description": "Boost your LinkedIn profile visibility and engagement.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "features": ["Profile review", "Keyword optimization", "Headline generator"],
+    "icon": "https://i.ibb.co.com/4gsmd3pN/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Premium Career Subscription",
+    "description": "Full access to all tools and resources yearly.",
+    "price": 59.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "features": ["All templates", "Unlimited exports", "Priority support", "Career coaching"],
+    "icon": "https://i.ibb.co.com/gbXnCgmW/writing-2327400-1.png"
+
+  },
+  {
+    "id": 7,
+    "name": "Interview Prep Bundle",
+    "description": "Practice and prepare for interviews with expert guidance.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "New",
+    "features": ["Mock interviews", "Common Q&A", "Feedback tips"],
+    "icon": "https://i.ibb.co.com/g8h9Rz2/shopping-cart.png"
+  },
+  {
+    "id": 8,
+    "name": "Freelancer Starter Kit",
+    "description": "Essential tools for freelancers to land clients.",
+    "price": 12.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "features": ["Proposal templates", "Portfolio builder", "Client tracker"],
+    "icon": "https://i.ibb.co.com/g8h9Rz2/shopping-cart.png"
+  }
+]
+
