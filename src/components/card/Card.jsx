@@ -1,7 +1,14 @@
 import { Check } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 
-const Card = ({card}) => {
+const Card = ({card, setselectedCards, selectedCards}) => {
+    const [isSelected , setisSelected] = useState(false) 
+    const handleBuyBtn =()=>{
+        setisSelected(true);
+        setselectedCards([...selectedCards, card]);
+    }
+     console.log("selectedCards:", selectedCards);
+    
     return (
         <div>
             <div className='flex flex-col px-2 py-6 space-y-4 h-full'>
@@ -21,13 +28,19 @@ const Card = ({card}) => {
                                 <div className='text-[#627382]'>
                                     {card.features.map((feature, index)=>{
                                         return(
-                                            <ul>
-                                                <li key={index} className='flex gap-2'><Check className='text-green-700'/> {feature}</li>
+                                            <ul key={index}>
+                                                <li  className='flex gap-2'><Check className='text-green-700'/> {feature}</li>
                                             </ul>
                                         )
                                     })}
                                 </div>
-                                <button className='gradient-bg text-white font-bold w-full rounded-full py-3 mt-auto'>Buy Now </button>
+                                <button
+                                onClick={handleBuyBtn }
+                                disabled={isSelected} 
+                                className={` font-bold w-full rounded-full py-3 mt-auto
+                                ${isSelected === true ? "bg-green-600 text-white": "gradient-bg text-white"}`}> 
+                                {isSelected === true ? "Added To Cart" : "Buy Now"}
+                                </button>
 
             </div>
         </div>
