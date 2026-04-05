@@ -1,9 +1,11 @@
 import { Check } from 'lucide-react';
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Card = ({card, setselectedCards, selectedCards}) => {
     const [isSelected , setisSelected] = useState(false) 
     const handleBuyBtn =()=>{
+        toast.success(`${card.name} is added to cart `);
         setisSelected(true);
         setselectedCards([...selectedCards, card]);
     }

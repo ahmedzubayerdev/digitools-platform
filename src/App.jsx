@@ -7,6 +7,7 @@ import Stats from './components/stats/Stats'
 import Steps from './components/steps/Steps'
 import Cards from './components/cards/Cards'
 import { Suspense } from 'react'
+import { ToastContainer } from 'react-toastify'
 
 
 const fetchCards = async ()=>{
@@ -37,6 +38,8 @@ function App() {
         <Steps></Steps>
 
         <Pricing></Pricing>
+
+        <ToastContainer />
 
       </main>
 
